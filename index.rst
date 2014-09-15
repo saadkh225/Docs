@@ -3,13 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. figure:: voxapp1.png
+.. figure:: dashboard/images/voxapp1.png
 	
 DOCUMENTATION
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :numbered:
    
    
@@ -17,8 +17,7 @@ DOCUMENTATION
    dashboard/survey-creator-guide 
    dashboard/voxdesk-windows
    dashboard/voxapp-android
-   vox-engine/index
-   api
+  
 
 Indices and tables
 ==================

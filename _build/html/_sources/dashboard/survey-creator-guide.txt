@@ -297,7 +297,6 @@ Once the translations are added click on the language section ‘Save’ button(
 After the translations have been added for all the questions and is Saved, click on the ``Quick Test`` button to test the survey in its current state on the browser.
 
 
-.. _my-reference-label:
 
 **********
 Quick Test
