@@ -14,7 +14,7 @@
 
 import sys
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "surveyapp.settings")
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "surveyapp.settings")
 #import sphinx_bootstrap_theme
 #from sbo_sphinx import *
 
@@ -36,7 +36,6 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
-    'rst2pdf.pdfbuilder',	
 ]
 
 # Add any paths that contain templates here, relative to this directory.
