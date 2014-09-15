@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API: File index &mdash; vox-engine 1.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="vox-engine 1.0 documentation" href="../index.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="../index.html" class="fa fa-home"> vox-engine</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/dashboard-guide.html">1. DASHBOARD GUIDE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/dashboard-guide.html#live-data-dashboard">1.1. Live Data Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/dashboard-guide.html#reporting-dashboard">1.2. Reporting Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/dashboard-guide.html#deployment-dashboard">1.3. Deployment Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/survey-creator-guide.html">2. SURVEY CREATOR GUIDE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/survey-creator-guide.html#questions">2.1. Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/survey-creator-guide.html#lists">2.2. Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/survey-creator-guide.html#media">2.3. Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/survey-creator-guide.html#languages">2.4. Languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/survey-creator-guide.html#quick-test">2.5. Quick Test</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/voxdesk-windows.html">3. VoxDesk CAPI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/voxdesk-windows.html#installation-usage">3.1. Installation &amp; Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard/voxapp-android.html">4. VoxApp CAPI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../dashboard/voxapp-android.html#installation-usage">4.1. Installation &amp; Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">5. API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Choicegrid.html">5.1. Choicegrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Choicelist.html">5.2. Choicelist (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Date &amp; Time Field.html">5.3. Date &amp; Time Field (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Dropdown.html">5.4. Dropdown (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/INPUTS.html">5.5. INPUTS (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/LIST.html">5.6. LIST (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Numberfield.html">5.7. Numberfield (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Numbergrid.html">5.8. Numbergrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/QUESTION.html">5.9. QUESTION (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Ranking.html">5.10. Ranking (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Textbox.html">5.11. Textbox (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/Textgrid.html">5.12. Textgrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="symbols/_global_.html">5.13. _global_ (data)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">6. CORE API</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">vox-engine</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>API: File index</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/vox-engine/files.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="api-file-index">
+<h1>API: File index<a class="headerlink" href="#api-file-index" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">generator:</th><td class="field-body">JsDoc Toolkit</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>src/js/_init_.js</li>
+<li>src/js/input/audioRecord/audioRecord.js</li>
+<li>src/js/input/audioRecord/manifest.js</li>
+<li>src/js/input/autoComplete/autoComplete.js</li>
+<li>src/js/input/autoComplete/manifest.js</li>
+<li>src/js/input/backgroundAudioRecord/backgroundAudioRecord.js</li>
+<li>src/js/input/backgroundAudioRecord/manifest.js</li>
+<li>src/js/input/barcodeScanner/barcodeScanner.js</li>
+<li>src/js/input/barcodeScanner/manifest.js</li>
+<li>src/js/input/camera/camera.js</li>
+<li>src/js/input/camera/manifest.js</li>
+<li>src/js/input/captureBackgroundAudio/captureBackgroundAudio.js</li>
+<li>src/js/input/captureBackgroundAudio/manifest.js</li>
+<li>src/js/input/captureLocationTrackingData/captureLocationTrackingData.js</li>
+<li>src/js/input/captureLocationTrackingData/manifest.js</li>
+<li>src/js/input/choiceGrid/choiceGrid.js</li>
+<li>src/js/input/choiceGrid/manifest.js</li>
+<li>src/js/input/choiceList/choiceList.js</li>
+<li>src/js/input/choiceList/manifest.js</li>
+<li>src/js/input/dateTimeField/dateTimeField.js</li>
+<li>src/js/input/dateTimeField/manifest.js</li>
+<li>src/js/input/dateTimeGrid/dateTimeGrid.js</li>
+<li>src/js/input/dateTimeGrid/manifest.js</li>
+<li>src/js/input/dropDown/dropDown.js</li>
+<li>src/js/input/dropDown/manifest.js</li>
+<li>src/js/input/enableBackgroundAudioRecord/enableBackgroundAudioRecord.js</li>
+<li>src/js/input/enableBackgroundAudioRecord/manifest.js</li>
+<li>src/js/input/enableLocationTracking/enableLocationTracking.js</li>
+<li>src/js/input/enableLocationTracking/manifest.js</li>
+<li>src/js/input/gps/gps.js</li>
+<li>src/js/input/gps/manifest.js</li>
+<li>src/js/input/imageGrid/imageGrid.js</li>
+<li>src/js/input/imageGrid/manifest.js</li>
+<li>src/js/input/imageRanking/imageRanking.js</li>
+<li>src/js/input/imageRanking/manifest.js</li>
+<li>src/js/input/imageScanner/imageScanner.js</li>
+<li>src/js/input/imageScanner/manifest.js</li>
+<li>src/js/input/input.js</li>
+<li>src/js/input/manifest.js</li>
+<li>src/js/input/numberField/manifest.js</li>
+<li>src/js/input/numberField/numberField.js</li>
+<li>src/js/input/numberGrid/manifest.js</li>
+<li>src/js/input/numberGrid/numberGrid.js</li>
+<li>src/js/input/planoGram/manifest.js</li>
+<li>src/js/input/planoGram/planoGram.js</li>
+<li>src/js/input/ranking/manifest.js</li>
+<li>src/js/input/ranking/ranking.js</li>
+<li>src/js/input/rating/manifest.js</li>
+<li>src/js/input/rating/rating.js</li>
+<li>src/js/input/recordTime/manifest.js</li>
+<li>src/js/input/recordTime/recordTime.js</li>
+<li>src/js/input/staticLocation/manifest.js</li>
+<li>src/js/input/staticLocation/staticLocation.js</li>
+<li>src/js/input/textBox/manifest.js</li>
+<li>src/js/input/textBox/textBox.js</li>
+<li>src/js/input/textGrid/manifest.js</li>
+<li>src/js/input/textGrid/textGrid.js</li>
+<li>src/js/list/list.js</li>
+<li>src/js/list/manifest.js</li>
+<li>src/js/question/complete/complete.js</li>
+<li>src/js/question/complete/manifest.js</li>
+<li>src/js/question/form/form.js</li>
+<li>src/js/question/form/manifest.js</li>
+<li>src/js/question/manifest.js</li>
+<li>src/js/question/question.js</li>
+<li>src/js/question/terminate/manifest.js</li>
+<li>src/js/question/terminate/terminate.js</li>
+</ul>
+<div class="footer container">
+Documentation generated by <a class="reference external" href="http://code.google.com/p/jsdoc-toolkit/">jsdoc-toolkit</a>  2.4.0 using <a class="reference external" href="http://code.google.com/p/jsdoc-toolkit-rst-template/">jsdoc-toolkit-rst-template</a></div>
+</div>
+
+
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Saad.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. DASHBOARD GUIDE &mdash; vox-engine 1.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="vox-engine 1.0 documentation" href="../index.html"/>
+        <link rel="next" title="2. SURVEY CREATOR GUIDE" href="survey-creator-guide.html"/>
+        <link rel="prev" title="DOCUMENTATION" href="../index.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="../index.html" class="fa fa-home"> vox-engine</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">1. DASHBOARD GUIDE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#live-data-dashboard">1.1. Live Data Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reporting-dashboard">1.2. Reporting Dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deployment-dashboard">1.3. Deployment Dashboard</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="survey-creator-guide.html">2. SURVEY CREATOR GUIDE</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="survey-creator-guide.html#questions">2.1. Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="survey-creator-guide.html#lists">2.2. Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="survey-creator-guide.html#media">2.3. Media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="survey-creator-guide.html#languages">2.4. Languages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="survey-creator-guide.html#quick-test">2.5. Quick Test</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="voxdesk-windows.html">3. VoxDesk CAPI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="voxdesk-windows.html#installation-usage">3.1. Installation &amp; Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="voxapp-android.html">4. VoxApp CAPI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="voxapp-android.html#installation-usage">4.1. Installation &amp; Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../vox-engine/index.html">5. API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Choicegrid.html">5.1. Choicegrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Choicelist.html">5.2. Choicelist (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Date &amp; Time Field.html">5.3. Date &amp; Time Field (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Dropdown.html">5.4. Dropdown (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/INPUTS.html">5.5. INPUTS (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/LIST.html">5.6. LIST (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Numberfield.html">5.7. Numberfield (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Numbergrid.html">5.8. Numbergrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/QUESTION.html">5.9. QUESTION (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Ranking.html">5.10. Ranking (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Textbox.html">5.11. Textbox (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/Textgrid.html">5.12. Textgrid (data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../vox-engine/symbols/_global_.html">5.13. _global_ (data)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">6. CORE API</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">vox-engine</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>1. DASHBOARD GUIDE</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/dashboard/dashboard-guide.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="dashboard-guide">
+<h1>1. DASHBOARD GUIDE<a class="headerlink" href="#dashboard-guide" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="live-data-dashboard">
+<h2>1.1. Live Data Dashboard<a class="headerlink" href="#live-data-dashboard" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/img1.png" class="align-center" src="../_images/img1.png" />
+<p><strong>1. Overall Counts Section</strong></p>
+<p><em>This section shows the overall counts of the results submitted/synced in the system</em></p>
+<div class="line-block">
+<div class="line">Also see <a class="reference internal" href="survey-creator-guide.html#my-reference-label"><em>Quick Test</em></a></div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Results</span></tt>: Count of total results submitted/synced in the system.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">QC</span> <span class="pre">OK</span></tt>: Count of all the result which have been marked as ‘QC OK’ by the admin/QCTeam.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Terminates</span></tt>: Count of all the interview where respondent screened out as he/she did not meet the eligibility criteria for the survey.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">QC</span> <span class="pre">Flagged</span></tt>: Count of all the result which have been marked as ‘QC Reject’ by the admin/QC Team.</div>
+</div>
+<p><strong>2. QC Action Section</strong></p>
+<p><em>This section is/can be used by the admin/QC team to take actions on any specific interviews present in the system</em></p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">QC</span> <span class="pre">OK</span></tt>: If marked, this result will show as a valid result in the report file/result sheet.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">QC</span> <span class="pre">Reject</span></tt>: If marked, this result will show as a invalid result in the report file/result sheet.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Delete</span></tt>: If marked, this result will not show in the report file/result sheet.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Note</span></tt>: If no action is taken for any interview, it’s counted as ‘QC OK’ by default and is shown as a valid answer in the report file/result sheet.</div>
+</div>
+<p><strong>3. Interview Section</strong></p>
+<div class="line-block">
+<div class="line">When clicked on any of the interview, the interview expands to show all the questions which were asked to the user, and all the answers given for those questions(Open Ended, Audio, Image, and GPS Data on the Map).</div>
+</div>
+<div class="line-block">
+<div class="line">Click on the interview again to collapse the interview. Alternatively, press on close button at the bottom right corner of every/any expanded interview.</div>
+</div>
+</div>
+<div class="section" id="reporting-dashboard">
+<h2>1.2. Reporting Dashboard<a class="headerlink" href="#reporting-dashboard" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/img2.png" class="align-center" src="../_images/img2.png" />
+<p><strong>1. Report Manager</strong></p>
+<p><em>This section is used to ‘Add Report’ and ‘Save’ changes done on an existing report</em></p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Add</span> <span class="pre">Report</span></tt>: When clicked adds a report for a specific survey.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Save</span></tt>: When clicked saves the latest changes done to an existing report.</div>
+</div>
+<p><strong>2. Report Preview</strong></p>
+<p><em>This section is used to define how an individual question is represented on the report(CSV)</em></p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Show</span> <span class="pre">in</span> <span class="pre">Header</span></tt>: Used to define, whether ‘Label’ or ‘Code’ should be shown in the Header section for every question. In case of Labels, it can be changed in the text box provided for every question on the left. In case of Code, it directly fetches the code defined for every item at the time of scripting the survey.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Single</span> <span class="pre">Response</span></tt>: This should be selected for a single column representation of any question in the CSV i.e for every Single Answer question type, this should be checked.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Show</span> <span class="pre">Value</span></tt>: This should be selected for multiple column represenation of any question in the CSV i.e for every Multiple Answer question type, this should be checked.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Show</span> <span class="pre">in</span> <span class="pre">Column</span></tt>: Used to define, whether ‘Label’ or ‘Code’ should be shown in the columns for every question. In case of ‘Labels’ and ‘Code’, it directly fetches the labels and code defined for every item at the time of scripting the survey.</div>
+</div>
+<p><strong>3. Report Generation Section</strong></p>
+<p><em>This section is used to generate a CSV for result submitted in the system till that point of time. To generate a CSV, follow these steps</em>:</p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">a)</span></tt> Select the report in the report manager which you want to generate.</div>
+<div class="line"><tt class="docutils literal"><span class="pre">b)</span></tt> Click on the ‘Generate CSV for Selected Report’ button.</div>
+<div class="line"><tt class="docutils literal"><span class="pre">c)</span></tt> In the text box, enter the email id to which you want the report to be mailed. In case of multiple email ids, please separate them by comma(,) Ex: <a class="reference external" href="mailto:abc&#37;&#52;&#48;xyz&#46;com">abc<span>&#64;</span>xyz<span>&#46;</span>com</a>, <a class="reference external" href="mailto:def&#37;&#52;&#48;xyz&#46;com">def<span>&#64;</span>xyz<span>&#46;</span>com</a></div>
+<div class="line"><tt class="docutils literal"><span class="pre">d)</span></tt> Click on the ‘Email’ button and the report is automatically sent to the mentioned email ids.</div>
+</div>
+</div>
+<div class="section" id="deployment-dashboard">
+<h2>1.3. Deployment Dashboard<a class="headerlink" href="#deployment-dashboard" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/img3.png" class="align-center" src="../_images/img3.png" />
+<p><strong>1. Overall Count Section</strong></p>
+<p><em>This section gives you the overall counts of devices synced with the system for any specific study</em></p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Deployed</span></tt>: Count of total devices to which the survey has been pushed/deployed.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Active</span></tt>: Count of total number of active devices to which the survey has been pushed/deployed.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Active</span> <span class="pre">Today</span></tt>: Count of total number of active devices on a given day to which the survey has been pushed/deployed.</div>
+</div>
+<p><strong>2. Add Device Section</strong></p>
+<p><em>This section is used to create usernames/IDs for device(s). One or more usernames/IDs can be created using this section depending on the number of devices to be used in a study</em></p>
+<div class="line-block">
+<div class="line">To add device(s)/create IDs, click on ‘Add Devices’ button. A CSV of the usernames/passwords in the following format should be uploaded using the dialogue box:</div>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="31%" />
+<col width="38%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">username</th>
+<th class="head">password</th>
+<th class="head">mobile</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>abc</td>
+<td>xyz123</td>
+<td>9876543210</td>
+</tr>
+<tr class="row-odd"><td>def</td>
+<td>xyz123</td>
+<td>1234567890</td>
+</tr>
+</tbody>
+</table>
+<p><strong>3. Action Section</strong></p>
+<p><em>This section is used to take an action on the added device(s). Select device(s) on which the desired action is to be taken using checkbox, and select of the following actions from the dropdown</em></p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Deploy</span> <span class="pre">Survey</span></tt>: Used to deploy/push a specific survey to a device(s).</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Revoke</span></tt>: Used to remove/revoke a specific survey from a device(s). Please note, all the results will also be deleted from the device.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Delete</span> <span class="pre">Survey</span> <span class="pre">Agents</span></tt>: Used to delete usernames/IDs from the system for a specific survey.</div>
+</div>
+<p><strong>4. Interviewer/Agent Section</strong></p>
+<p><em>This section provides following agent specific details</em>:</p>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Interviewer</span></tt>: Username/ID being used on a specific device.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Mobile</span></tt>: Interviewer/Agent mobile number added at the time of adding a device(s).</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Status</span></tt>: Gives the current status of the username/ID/device. There are following status codes depending on the state of the device:</div>
+</div>
+<ol class="loweralpha simple">
+<li>Active: Survey is pushed/deployed to the username/ID/device and is currently active.</li>
+<li>Inactive: Survey is pushed/deployed to the username/ID/device but is currently inactive.</li>
+<li>Pending: Survey is pushed/deployed to the username/ID/device but has not been fetched by the device due to no internet connectivity or other similar reasons.</li>
+<li>Revoked: Survey is revoked/removed from the username/ID/device.</li>
+<li>Survey Deployment Failed: Survey deploy/push failed to no internet connectivity or some error in the survey scripting.</li>
+</ol>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Deployed</span> <span class="pre">On</span></tt>: Date on which the survey was  deployed/pushed to a specifc username/ID/device.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Last</span> <span class="pre">Submit</span></tt>: Date on which the last interview submission/sync was done by a specific username/ID/device.</div>
+</div>
+<div class="line-block">
+<div class="line"><tt class="docutils literal"><span class="pre">Total</span> <span class="pre">Results</span></tt>: Total count of results submitted by a username/ID/device.</div>
+</div>
+<div class="line-block">
+<div class="line">When clicked on any of the interviewer/agent name, the section expands to show the total interviews submitted by the interviewer/agent on every date.</div>
+</div>
+<div class="line-block">
+<div class="line">Click on the interviewer/agent name again to collapse the interview.</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="survey-creator-guide.html" class="btn btn-neutral float-right" title="2. SURVEY CREATOR GUIDE">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral" title="DOCUMENTATION"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Saad.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
