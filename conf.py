@@ -51,8 +51,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'vox-engine'
-copyright = u'2014, Saad'
+project = u'Voxapp'
+copyright = u'2014, Voxapp'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
