@@ -27,7 +27,7 @@ Live Data Dashboard
 
 2. QC Action Section
 ++++++++++++++++++++
-*This section is/can be used by the admin/QC team to take actions on any specific interviews present in the system*
+*This section can be used by the admin/QC team to take actions on any specific interviews present in the system*
 
 | ``QC OK``: If marked, this result will show as a valid result in the report file/result sheet. 
 
@@ -38,11 +38,13 @@ Live Data Dashboard
 | ``Note``: If no action is taken for any interview, it’s counted as ‘QC OK’ by default and is shown as a valid answer in the report file/result sheet.  
 
 
-3. Interview Section
-++++++++++++++++++++
-When clicked on any of the interview, the interview expands to show all the questions which were asked to the user, and all the answers given for those questions(Open Ended, Audio, Image, and GPS Data on the Map). 
+3. Interviewer login Section
+++++++++++++++++++++++++++++
+*This section can be used to see all the answers for the questions*.
 
-Click on the interview again to collapse the interview. Alternatively, press on close button at the bottom right corner of every/any expanded interview. 
+| When clicked on any of the interview, the interview expands to show all the questions which were asked to the user, and all the answers given for those questions(Open Ended, Audio, Image, and GPS Data on the Map). 
+
+| Click on the interview again to collapse the interview. Alternatively, press on close button at the bottom right corner of every/any expanded interview. 
 
 
 
@@ -76,10 +78,10 @@ Reporting Dashboard
 ++++++++++++++++++++++++++++ 
 *This section is used to generate a CSV for result submitted in the system till that point of time. To generate a CSV, follow these steps*: 
 
-``a)`` Select the report in the report manager which you want to generate. 
-``b)`` Click on the ‘Generate CSV for Selected Report’ button. 
-``c)`` In the text box, enter the email id to which you want the report to be mailed. In case of multiple email ids, please separate them by comma(,) Ex: abc@xyz.com, def@xyz.com
-``d)`` Click on the ‘Email’ button and the report is automatically sent to the mentioned email ids. 
+| ``a)`` Select the report in the report manager which you want to generate. 
+| ``b)`` Click on the ‘Generate CSV for Selected Report’ button. 
+| ``c)`` In the text box, enter the email id to which you want the report to be mailed. In case of multiple email ids, please separate them by comma(,) Ex: abc@xyz.com, def@xyz.com
+| ``d)`` Click on the ‘Email’ button and the report is automatically sent to the mentioned email ids. 
 
 
 

@@ -27,7 +27,7 @@ Live Data Dashboard
 
 2. QC Action Section
 ++++++++++++++++++++
-*This section is/can be used by the admin/QC team to take actions on any specific interviews present in the system*
+*This section can be used by the admin/QC team to take actions on any specific interviews present in the system*
 
 | ``QC OK``: If marked, this result will show as a valid result in the report file/result sheet. 
 
@@ -38,11 +38,13 @@ Live Data Dashboard
 | ``Note``: If no action is taken for any interview, it’s counted as ‘QC OK’ by default and is shown as a valid answer in the report file/result sheet.  
 
 
-3. Interview Section
-++++++++++++++++++++
-When clicked on any of the interview, the interview expands to show all the questions which were asked to the user, and all the answers given for those questions(Open Ended, Audio, Image, and GPS Data on the Map). 
+3. Interviewer login Section
+++++++++++++++++++++++++++++
+*This section can be used to see all the answers for the questions*.
 
-Click on the interview again to collapse the interview. Alternatively, press on close button at the bottom right corner of every/any expanded interview. 
+| When clicked on any of the interview, the interview expands to show all the questions which were asked to the user, and all the answers given for those questions(Open Ended, Audio, Image, and GPS Data on the Map). 
+
+| Click on the interview again to collapse the interview. Alternatively, press on close button at the bottom right corner of every/any expanded interview. 
 
 
 
